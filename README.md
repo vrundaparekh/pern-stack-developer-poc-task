@@ -3,8 +3,8 @@ AI-Powered Note-Taking Platform (PERN Stack)
 A note-taking application featuring real-time AI content processing.
 
 Links: 
-Live Application :
-Demo Video : 
+Live Application :https://pern-stack-developer-poc-task-ql54.vercel.app/
+Demo Video : https://www.loom.com/share/aa5686f081fb481dbcd64600b37929a9
 
 Key Features :
 - AI Content Engine : Powered by Groq API for near-instant "AI Improve," "Summarize," and "Auto-Tags" functionality.
@@ -45,11 +45,19 @@ The AI features are integrated via a dedicated API route that communicates with 
 
     Utilizes a fixed z-50 Toast system to provide non-intrusive feedback that floats above all UI layers.
 
-Installation & Setup
-Environment Variables
+4. Installation & Setup
 
-Create a .env.local file and add your credentials:
-DATABASE_URL="your_neon_url"
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_clerk_key"
-CLERK_SECRET_KEY="your_clerk_secret"
-GROQ_API_KEY="your_groq_key"
+- Clone the repository : `git clone https://github.com/vrundaparekh/pern-stack-developer-poc-task.git`
+
+- Install the dependencies : `npm install`
+
+- Environment Variables
+
+    Create a .env.local file and add your credentials:
+
+    DATABASE_URL="your_neon_url"
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY="your_clerk_key"
+    CLERK_SECRET_KEY="your_clerk_secret"
+    GROQ_API_KEY="your_groq_key"
+
+
