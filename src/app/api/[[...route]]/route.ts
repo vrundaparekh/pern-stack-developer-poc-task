@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 import { Hono } from 'hono';
 import { handle } from 'hono/vercel';
